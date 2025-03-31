@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Welcome to Our Registration Page</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section class="content">
+        <h2>Steps to Register</h2>
+        <ol type="I">
+            <li>Fill out the registration form</li>
+            <li>Verify your email</li>
+            <li>Complete your profile</li>
+            <li>Start using our services</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Our Services</h2>
+        <img src="https://images.pexels.com/photos/327540/pexels-photo-327540.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Services Image" width="600">
+    </section>
+
+    <section>
+        <h2>About Us</h2>
+        <img src="https://images.pexels.com/photos/19115416/pexels-photo-19115416/free-photo-of-old-wardour-castle-ruins.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A beautiful view" class="styled-image">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile Number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Elephant St, Jungleville</td>
+                    <td>(123) 456-7890</td>
+                    <td>john.doe@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>321 Elm St, Townville</td>
+                    <td>(234) 567-8901</td>
+                    <td>jane.smith@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Johnson</td>
+                    <td>456 Oak St, Cityville</td>
+                    <td>(345) 678-9012</td>
+                    <td>bob.johnson@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Wonderland</td>
+                    <td>654 Rabbit St, Happyville</td>
+                    <td>(456) 789-0123</td>
+                    <td>alice.wonderland@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Charlie Davis</td>
+                    <td>789 Maple St, Syrupville</td>
+                    <td>(567) 890-1234</td>
+                    <td>charlie.davis@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action=" " method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br/>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br/>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br/>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br/>
+            <label for="interests">Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label>
+            <br/>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="south africa">South Africa</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br/><br/>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Registration Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
